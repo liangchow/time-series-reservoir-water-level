@@ -1,1 +1,3 @@
-# time-series-reservoir-water-level
+# Napa Valley Reservoir Water Level Forecast
+
+The primary objectivce of this project is to predict or "forecast" missing past data between June 2019 and June 2022 for a reservoir in Napa Valley, California. The old data collection system was out of service until July 2022, when a new data collection system replaced the old system. The dataset contains 40+ years of data dated as early as 1980. In the early years, water level measurements, which later converted and reported as elevations, were collected at various intervals. For example, in some months, weekly readings were taken, and in other months, only one reading was obtained near the end-of-the-month. Therefore, part of the scope is to re-evalaute the dataset integrity and re-sample prior to model fitting. 
